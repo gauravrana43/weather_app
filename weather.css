@@ -1,0 +1,64 @@
+.container{
+    width: 100vw;
+    height:100vh;
+    display:grid;
+    grid-template-rows: 1fr 11fr ;
+}
+.header{
+    width:100vw;
+    height:auto;
+    background-color: rgb(57, 54, 54);
+}
+.search_pane{
+    display: flex;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#appName{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    left:3%;
+}
+.search_pane img{
+    width:20px;
+    height:20px;
+    margin:5px;
+}
+.search_pane input{
+    width:400px;
+    height: auto;
+}
+.body{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(76, 75, 75);
+    position: relative;
+}
+.card{
+    position: absolute;
+    top:10%;
+    left:35%;
+    width:30%;
+    height:50%;
+    border:2px solid rgb(246, 244, 244);
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    color: aliceblue;
+}
+.country{
+    background-color: rgb(57, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.weatherDetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 22px;
+
+}
